@@ -1,0 +1,7 @@
+<!DOCTYPE html>
+{% extends "basicapp/base.html"%}
+  {%block body_block%}
+    <h1>welcome to the relaive file</h1>
+    <a href="{% url 'basicapp:other'%}">The OTHER page</a>
+    <a href="{%url 'admin:index'%}">GO TO THE ADMIN PAGE</a>
+  {%endblock%}
